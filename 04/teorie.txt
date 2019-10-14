@@ -1,0 +1,22 @@
+Teorie
+
+Nevnorovat inputy do funkci, protoze pak se stane, ze nespustime funkci bez toho, 
+abychom museli vpisovat do prikazove radky a zadavat input.
+
+Dalsi nevyhoda je tak, ze ve chvili, kdy funkce nic nevraci, dal v programu se nemuze pouzit.
+Kdyz je tam input, tak spoleha  na to, ze za klavesnici sedi uzivatel.
+
+
+V sablonovacich retezcich muzeme pouzivat jakykoliv vyraz. Nicmene se doporucuje pouzivat jen promenne.
+
+Look before you leep - metoda .isnumeric pro nas program vyjimky
+    - problem ale teto funkce je, ze i 1/2 je pro nej cislo
+    - to ale nasledne neumi int() zpracovat
+Nikdy nedavat obecne exception - neumozni nam to chytat specificke chyby.
+Do try bloku nedavat moc kodu, jen ten co ocekavame, ze nam muze vyhodt chybu. 
+
+Raise errorů - tam kde očekáváme, že by někdo mohl zavolat funkci s nesprávnými vstupními daty/ nelogickými pro chování funkce
+
+Dva druhy promennych - globalni a lokalni
+    - lokalni promenne existuji jen v ramci te funkce (ve chvili kdy funkce skonci pak zmizi)
+    - vsechny argumenty funkce jsou lokalni promenne
